@@ -1,0 +1,72 @@
+.link{
+    width: auto;
+    height: 70px;
+    background-color: green;
+}
+.link ul{
+    display: flex;
+    float: right;
+}
+.link ul li{
+    margin-right: 80px;
+    list-style-type: none;
+    padding-top: 10px;
+}
+.link ul li a{
+    text-decoration: none;
+ padding-top: 100px;
+ color: aliceblue;
+ font-size: 20px;
+}
+ .link ul li a:hover,
+.link ul li a.active{
+    border-bottom: solid 3px white;
+    
+
+    
+}
+    */
+.sea{ 
+    height: 35px;
+    width: 110px;
+    border: solid;
+    border-radius: 10px;
+    border-color: darkgray;
+    margin-right: 40px;
+    padding-top: 10px;
+}
+.but{
+    height: 45px;
+    width: 160px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0ch;
+    border-color: aquamarine;
+}
+.but:hover{
+    background-color:brown;
+    color: red;
+
+}
+.cntr{
+    margin-top: 180px;
+    margin-left: 160px;
+    
+}
+.imgg{
+float: right;
+margin-top: 180px;
+margin-right: 150px;
+border: solid;
+
+border-radius: 0px;
+border-width: 0px;
+
+
+
+}
+.cntr h3{
+    color: green;
+}
+

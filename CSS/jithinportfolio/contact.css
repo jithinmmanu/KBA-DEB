@@ -1,0 +1,111 @@
+
+
+
+
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.link{
+    width: 100%;
+height: 30px;
+    background-color: black;
+    padding-bottom: 50px;
+    
+    
+
+}
+.link ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+.link ul li{
+    
+    padding: 25px;
+
+}
+.link ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 20px;
+    color: white;
+    
+}
+nav ul li a:hover,
+nav ul li a.active
+{
+    color: brown;
+    border-bottom: 3px solid brown;
+}
+
+
+
+.box{
+    height: 380px;
+    width: 400px;
+    background-color: black;
+    border-radius: 20px;
+   
+    margin-left: 100px;
+    padding: 50px;
+    margin-top: 50px;
+
+    
+}
+.in{
+    width: 300px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+}
+
+.int{
+    height: 60px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+.right img{
+    margin-left: 300px;
+}
+.inp{
+    width: 200px;
+    height: 30px;
+    background-color:black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 55px;
+    border-color:brown;
+    border-style: solid;
+    border-width: 3px;
+    color: brown;
+
+
+
+
+
+
+
+}
+.h{
+    color:brown;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+
+.hr{
+    color: brown;
+    background-color: brown;
+}
+

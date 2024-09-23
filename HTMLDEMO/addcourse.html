@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dd courses</title>
+</head>
+<body bgcolor="#cdb2e9 ">
+    <nav>
+    <img src="two.png" width="30" height="30">
+    <a href="home.html">HOME</a>&nbsp;&nbsp;&nbsp;
+    <a href="contactus.html">COURSES</a>&nbsp;&nbsp;&nbsp;
+    <a href="contactus.html">CONTACT US</a>&nbsp;&nbsp;&nbsp;
+    <a href="addcourses.html">ADD COURSE</a>&nbsp;&nbsp;&nbsp;
+    <a href="Logout.html">LOGOUT</a>
+</nav>
+<center>
+    <h2><font color="#1d0f90">Add course</font></h2>
+</center>
+    <form action="">
+        <table align="center" width="500px" height="300px" cellspacing="20px">
+            
+            <tr>
+                <td>Course name :</td>
+                <td><input type="text" placeholder="Enter course name" required></td>
+            </tr>
+            <tr>
+                <td>Course Id :</td>
+                <td><input type="text" placeholder="Enter course id" required></td>
+            
+            </tr>
+            <tr>
+                <td>Course type :</td>
+                <td>
+                    <select name="course type" id="">
+                        <option value="course 1" selected>Course 1</option>
+                        <option value="course 2">Course 2</option>
+                        <option value="course 3">Course 3</option>
+                        <option value="course 4">Course 4</option>
+                    </select>
+                </td>
+            
+            </tr>
+            <tr>
+                <td>Description :</td>
+                <td><textarea rows="5" cols="30" placeholder="Enter the Description" required></textarea></td>
+            </tr>
+            <tr>
+                <td>price :</td>
+                <td>
+                    <select name="price" id="" required>
+                        <option value="fees 1" selected>20000</option>
+                        <option value="fees 2">30000</option>
+                        <option value="fees 3">15000</option>
+                        <option value="fees 4">35000</option>
+                    </select>
+                </td>
+            
+            </tr>
+            <tr>
+                <td>Education :</td>
+                <td><input type="checkbox" value="UG">UG
+                <input type="checkbox" value="PG">PG
+                <input type="checkbox" value="others">OTHERS
+            </td>
+
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                <td>
+                    <input type="radio" name="Gender" value="male" required>male
+                    <input type="radio" name="Gender" value="female"required>female
+                    <input type="radio" name="Gender" value="trans" required>transgender</td>
+            </tr>
+            <tr>
+                <td>Email :</td>
+                <td><input type="email" placeholder="Enter your email" required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="submit" value="Add Course">
+                    <input type="reset" name="Reset" value="Reset"></td>
+            </tr>
+            
+        </table>
+        
+    </form>
+</body>
+</html>

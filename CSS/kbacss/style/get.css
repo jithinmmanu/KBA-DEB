@@ -1,0 +1,39 @@
+.navv{
+    height: 100px;
+    width: auto;
+    background-color: aliceblue;
+
+    
+}
+.navv ul  {
+    list-style-type: none;
+    display: flex;
+    float: right;
+
+}
+.navv ul li{
+    padding-left: 50px;
+}
+.navv ul li a{
+    text-decoration: none;
+
+}
+
+
+.heading1 h1{
+    text-align: center;
+    padding-left: 480px;
+
+}
+    
+    .heading1 p{
+        text-align: center;
+
+
+    }
+
+
+
+   
+
+

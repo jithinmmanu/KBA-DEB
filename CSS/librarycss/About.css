@@ -1,0 +1,87 @@
+.link{
+    width: auto;
+    height: 70px;
+    background-color: green;
+}
+.link ul{
+    display: flex;
+    float: right;
+}
+
+.link ul li{
+    margin-right: 80px;
+    list-style-type: none;
+    padding-top: 10px;
+}
+.link ul li a{
+    text-decoration: none;
+ padding-top: 100px;
+ color: aliceblue;
+ font-size: 20px;
+}
+.link ul li a:hover,
+.link ul li a.active{
+    border-bottom: solid 3px white;
+    
+
+    
+}
+.sea{
+    height: 35px;
+    width: 140px;
+    border: solid;
+    border-radius: 10px;
+    border-color: darkgray;
+    margin-right: 40px;
+    padding-top: 10px;
+}
+.imgg{
+    margin-top: 130px;
+    float: left;
+    margin-left: 100px;
+}
+/* .but{
+    height: 45px;
+    width: 160px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0ch;
+    border-color: aquamarine;
+    
+} */
+.imgg{
+    float: left;
+    margin-top: 180px;
+    margin-right: 50px;
+    border: solid;
+    border: solid;
+    border: 3px;
+    
+    border-radius: 20px;
+    border-width: 0px;
+    
+    
+    
+    }
+
+    .cntr{
+        margin-top: 180px;
+        margin-left: 80px;
+        margin-right: 100px;
+        
+    }
+    .but{
+        height: 45px;
+        width: 160px;
+        background-color: green;
+        color: white;
+        border-radius: 10px;
+        box-shadow: 0ch;
+        border-color: aquamarine;
+    }
+    .but:hover{
+        background-color:brown;
+        color: red;
+    
+    }

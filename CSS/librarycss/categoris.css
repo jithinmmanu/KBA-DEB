@@ -1,0 +1,87 @@
+.link{
+    width: auto;
+    height: 70px;
+    background-color: green;
+}
+.link ul{
+    display: flex;
+    float: right;
+}
+.link ul li{
+    margin-right: 80px;
+    list-style-type: none;
+    padding-top: 10px;
+}
+.link ul li a{
+    text-decoration: none;
+ padding-top: 100px;
+ color: aliceblue;
+ font-size: 20px;
+}
+/* .link ul li a:hover,
+.link ul li a.active{
+    border-bottom:3px solid white;
+    background-color: white;
+
+    
+} */
+ .box1{
+    height: 300px;
+    width: 400px;
+    background-color:white ;
+    margin-top: 100px;
+   border-radius: 10px;
+   padding: 10px;
+   margin-left: 60px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+ }
+.box1 img{
+    width: 200px;
+    height: 90px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.box1 h1{
+    text-align: center;
+    color: green;
+    
+}
+.box1 p{
+    margin-left: 30px;
+    margin-right: 30px;
+   
+}
+.box2{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    margin-top: 100px;
+   border-radius: 10px;
+   padding: 10px;
+   margin-left: 30px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+ }
+.box2 img{
+    width: 200px;
+    height: 90px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.box2 h1{
+    text-align: center;
+    color: green;
+    
+}
+.box2 p{
+    margin-left: 30px;
+    margin-right: 30px;
+   
+}
+.all{
+    display: flex;
+}
+

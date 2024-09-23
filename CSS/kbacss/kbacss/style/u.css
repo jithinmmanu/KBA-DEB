@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.all
+{
+    width: 600px;
+    height: 600px;
+    background-color: aquamarine;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+    
+}
+h1{
+    text-align:center ;
+padding-top: 50px;
+    
+
+}
+input{
+    height: 20px;
+    width: 450px;
+    margin-bottom: 10px;
+    
+    
+   
+}
+.content{
+    padding-left: 60px;
+    margin-top:40px ;
+    padding-bottom: 40px;
+    display: block;
+
+
+}
+.drop{
+    height: 30px;
+    width: 450px;
+    
+     
+     
+
+}
+.but{
+    height: 25px;
+    width: 380px;
+    background-color: blueviolet;
+    border-radius: 50px;
+    margin-left: 30px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 40px;
+}
+    
+    
+    
+
+    
+.des{
+    height: 60px;
+    width: 450px;
+    margin-top: 0px;
+
+     y
+     
+     
+
+}
+.d{
+padding-top: 20px;
+
+}
+
+
+
+
+
+    

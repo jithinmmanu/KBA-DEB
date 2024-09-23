@@ -1,0 +1,76 @@
+.links
+{
+width:100%;
+height: 60px;
+background-color:aqua ;
+}
+.links ul {
+    
+    
+    display: flex;
+    float: right;
+    list-style: none;
+
+    
+    
+}
+.links ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+    
+    
+}
+.links ul li a{
+    text-decoration: none;
+
+
+    
+}
+.box{
+    width: 600px;
+    height: 600px;
+    background-color: aqua;
+    margin: auto;
+    margin-left: 200px;
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
+.form
+{
+    width: 1000px;
+    height: 40px;
+    padding-left: 40px;
+}
+.form input{
+    width: 450px;
+    height: 30px;
+}
+.form drop{
+    width: 1000px;
+    height: 40px;
+
+}
+
+.is{
+    font-size: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.drop{
+    width: 450px;
+    height: 30px;
+
+
+}
+.but{
+    width: 200px;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+
+    border-radius: 30px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
