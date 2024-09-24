@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p>activity2</p>
+    
+    <script>
+        {
+        let a=4 ,b=6, temp;
+        
+temp = a;
+a = b;
+b = temp;
+
+document.write(`The value of a after swapping: ${a}`,"<br>",);
+document.write(`The value of b after swapping: ${b}`,"<br><br> ");
+        }
+        {
+    document.write("Program to swap two numbers w/o using temporary variable","<br>")
+        let x=10,y=11,z;
+z = x + y; 
+y = z - y; 
+x = z- y;
+document.write(`The value of x after swapping: `,y,"<br>",);
+document.write(`The value of y after swapping: `,x,"<br><br> ");
+        }
+
+        document.write("Program to convert Celsius to fahrenheit","<br>")
+        {
+        const celsius = 45;
+
+// Convert Celsius to Fahrenheit
+const fahrenheit = (celsius * 1.8) + 32;
+document.write(`The celsius converted into farenhiit is: `,fahrenheit,"<br><br> ");
+
+        }
+        document.write("Program to find square of a number","<br>")
+        {
+            let x ,y;
+            x=10;
+            y=x**2
+            document.write(`The squre of x is: `,y,"<br><br> ");
+
+
+        }
+        document.write("Program to find cube of a number","<br>")
+        {
+            let x ,y;
+            x=10;
+            y=x**3
+            document.write(`The cube of x is: `,y,"<br><br> ");
+          
+
+        }
+        document.write("  Program to find area of square, circle, rectangle, triangle","<br>")
+        {
+            let h=10,w=20,r=5,b=8;
+            document.write(`The area of sqaure(h) is: `,h*h,"<br> ");
+            document.write(`The area of circle is: `,3.14*r**2,"<br> ");
+            document.write(`The area of rectangle is: `,w*h,"<br> ");
+            document.write(`The area of triangle is: `,1/2*b*h,"<br><br> " );
+
+            
+        }
+        document.write("  Program to find perimeter of rectangle, square, circle, triangle","<br>")
+            let h=10,w=20,r=5,b=8, c=10, a12;
+            document.write(`The perimetr of sqaure(h) is: `,4*h,"<br> ");
+            document.write(`The perimeter of circle is: `,3.14*r**2,"<br> ");
+            document.write(`The perimeter of rectangle is: `,h*2+w*2,"<br> ");
+            document.write(`The perimeter of triangle is: `,a+b+c,"<br><br>  ");
+
+
+
+
+            document.write(" Program to find simple interest & compound interest","<br>")
+            {
+            let p=1000,r=37,t=25,simple,CI, R=60,n=4;
+            //CI = P*(1+R/n)*(nt)-P
+            si= (p*r* t) / 100;
+            document.write(`The simple interest is: `,si,"<br> ");
+            //document.write(`The compount interest is: `,CI,"<br> ");
+
+            }
+
+
+            document.write(" Program to find largest among two numbers","<br>")
+            let j=2 ,k=6;
+            
+                if(j<k)
+        {
+            document.write("<br>", `${k} is greater than ${j}`)
+        }
+        else{     
+            document.write("<br>", `${j} is greter than ${k}`,"<br> <br>")   
+        }
+
+    
+        document.write("      program to find smallest among three numbers ","<br>")
+        let num1=5,num2=3,num3=1;
+        if (num1 <= num2 && num1 <= num3) {
+        smallest = num1;
+    } else if (num2 <= num1 && num2 <= num3) {
+        smallest = num2;
+    } else {
+        smallest = num3;
+    }
+
+    </script>
+    <script>
+
+        
+    </script>
+    
+</body>
+</html>
