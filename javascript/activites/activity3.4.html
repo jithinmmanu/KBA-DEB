@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create a dropdown containing name of books on the book shop page after List of Book heading.</h1>
+    <div id="drop"></div>
+    <script>
+       let h= document.createElement("h2")
+       h.innerHTML="Welcome to library <br>"
+       document.getElementById("drop").appendChild(h)
+        
+        drop=document.createElement("select" )
+        document.getElementById("drop").appendChild(drop)
+        op1=document.createElement("option")
+        op2=document.createElement("option")
+        op3=document.createElement("option")
+        op1.innerHTML="balarama"
+        op2.innerHTML="balabumi"
+        op3.innerHTML="kalikuduka"
+        drop.appendChild(op1)
+        drop.appendChild(op2)
+        drop.appendChild(op3)
+
+
+    </script>
+    
+</body>
+</html>

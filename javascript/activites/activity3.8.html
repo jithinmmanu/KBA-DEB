@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>1-“You can study anything if you have a will to do it”.Take the substrings “You can study”, “you”,”will”,”do it” and combine as a sentence.</h1>
+<h1>2-“MongoDB is a decentralised distributed ledger . MongoDB can eliminate centralisation.” Replace MongoDB with Blockchain.</h1>
+<h1>3-Print the string “MongoDB is a decentralised distributed ledger” using substring/substr.</h1>
+<h1>4-Compare “Hello World” & “hEllO World” and display the result & its type.</h1>
+<h1>5-Print this statement “ I am ___ yrs of old and my brother is 10 yrs older to me. He is now __ years old.”</h1>
+<h6>6-Consider this statement “ My name is ________.(declaring fname & lastname in uppercase). I live in ____(uppercase).</h6>
+<script>
+a= "You can study"
+g=" "
+b="you"
+e=" "
+c="will"
+f="  "
+d="do it"
+document.write(a+g+b+e+c+f+d ,"<br>")
+
+man="MongoDB is a decentralised distributed ledger"
+document.write(man.replace("MongoDB","Blockchain"))
+document.write( "<br>",man.substring(0,45))
+document.write( "<br>", man.substr(0,45))
+
+co="Hello World"
+mp="hEllO World"
+result=(co===mp)
+document.write( "<br>",result,"&nbsp; &nbsp;",typeof result)
+j="I am ___ yrs of old and my brother is 10 yrs older to me. He is now __ years old."
+document.write("<br>",j)
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
