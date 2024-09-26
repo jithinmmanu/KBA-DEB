@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Write a program to search an element in an array</p>
+    <script>
+        // Define the array and the element to search for
+let array = [10, 20, 30, 40, 50];
+let elementToSearch = 30;
+let found = false;
+
+// Loop through the array
+for (let i = 0; i < array.length; i++) {
+    if (array[i] === elementToSearch) {
+        found = true;
+        document.write("Element found at index: " + i);
+        break;
+    }
+}
+
+// If the element is not found
+if (!found) {
+    document.write("Element not found in the array.");
+}
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

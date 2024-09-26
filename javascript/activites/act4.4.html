@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Write a program to check whether a number is palindrome or not</p>
+    <script>
+  let num=121
+        temp=num;
+        let rev=0;
+            document.write("<br>the number is",num)
+            for(;num>0;num=Math.floor(num/10)){
+                let r=num%10;
+                rev=(rev*10)+r;
+            }
+        document.write("<br> Reverse of the number is",rev,"<br>")
+        if(temp==rev){
+            
+            document.write("the number is palindrome",rev,"<br>")
+        }
+        else
+        {
+            document.write("the number is not palindrome",rev,"<br>")
+
+        }
+
+
+    </script>
+        
+</body>
+</html>

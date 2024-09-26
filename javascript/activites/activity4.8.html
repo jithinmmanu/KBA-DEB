@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+// Original array
+let originalArray = [20, 25, 30, 35, 40, 45, 50, 55];
+
+// Arrays to hold the divided elements
+let firstHalf = [];
+let secondHalf = [];
+
+
+// Calculate the midpoint of the array
+let midpoint = Math.floor(originalArray.length / 2);
+
+// Use a for loop to divide the array
+for (let i = 0; i < originalArray.length; i++) {
+    if (i < midpoint) {
+        firstHalf.push(originalArray[i]);
+        
+    } else {
+        secondHalf.push(originalArray[i]);
+    }
+}
+document.write("First Half:", firstHalf);
+
+document.write("<br> First Half:", secondHalf);
+
+
+// Output the results
+// console.log("First Half:", firstHalf);
+// console.log("Second Half:", secondHalf);
+    </script>
+</body>
+</html>
