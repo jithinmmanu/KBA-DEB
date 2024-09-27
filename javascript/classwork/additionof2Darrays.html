@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>addition of 2 arrays</p>
+    <script>
+                let x=0;
+                let a=[[],[],[]];
+  
+  for(i=0;i<4;i++)
+{
+  
+  for(j=0;j<4;j++){
+      x=x+2;
+      a[i][j]=x;
+      
+      
+      document.write(a[i][j])
+  }
+  document.write("<br>")
+}
+
+    
+        let b=[[],[],[]];
+  
+  for(k=0;k<4;k++)
+{
+  x=k;
+  for(l=0;l<4;l++){
+      b[k][l]=x+1;
+      
+      document.write(b[k][l])
+  }
+  document.write("<br>")
+}
+let c=[[],[],[]];
+
+for(m=0;m<4;m++)
+{
+  
+  for(n=0;n<4;n++){
+      c[m][n]=a[i][j]+b[k][l];
+      
+      document.write( "result",c[m][n])
+  }
+  document.write("<br>")
+}
+
+
+
+
+    </script>
+    
+</body>
+</html> 

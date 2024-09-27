@@ -20,12 +20,46 @@
         
         d. Search whether "ARM" is on your list</p>
     <script>
-        let a=["drishym","kgf","master","vikram"];
-       
-        document.write(a)
-        let n=a.indexOf(kgf)
-        document.write( "favorite filim",n)
+      let films = [
+    "drishym",
+    "hello",
+    "kgf",
+    "master",
+    "leo",
+    "Mahan"
+];
 
+// a. Find the position of your favorite film
+let favoriteFilm = "drishym";
+let position = films.indexOf(favoriteFilm); // 0-based index
+document.write("Position of favorite film: ", position,"<br>" ); // converting to 1-based index
+
+// b. Add one more film to the list
+films.push("The Godfather");
+document.write("Updated films list:", films,"<br>");
+
+// c. Pop one film from the list
+let poppedFilm = films.pop(); // removes the last film
+document.write("Popped film:", poppedFilm ,"<br>");
+document.write("Films list after popping:", films ,"<br>");
+
+// d. Delete the least interested film from the list
+let leastInterestedFilm = "leo"; // assuming this is the least interested
+let indexToDelete = films.indexOf(leastInterestedFilm);
+document.write("index of least intersted filim is",indexToDelete,"<br>")
+    films.splice(indexToDelete, 1); // removes the film
+
+document.write("Films list after deletion:", films,"<br>");
+
+// e. Make a different list from 3rd position to 6th position
+
+let newList = films.slice(2, 5); // gets elements from index 2 to 4 (3rd to 5th)
+document.write("New list from 3rd to 5th position:", newList,"<br>");
+
+// f. Search whether "ARM" is on your list
+let searchTerm = "ARM";
+let isPresent = films.includes(searchTerm);
+document.write(`Is "${searchTerm}" on the list?`, isPresent);
 
 
     </script>

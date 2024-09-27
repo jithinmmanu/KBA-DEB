@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Write a JavaScript conditional statement to find the sign of the product of three numbers. Display with the specified sign. without function</p>
+    <script>
+        // Example numbers
+let a = 3;
+let b = -4;
+let c = 2;
+
+let negativeCount = 0;
+
+// Count how many of the numbers are negative
+if (a < 0) negativeCount++;
+if (b < 0) negativeCount++;
+if (c < 0) negativeCount++;
+
+// Determine the sign of the product
+if (negativeCount % 2 === 0) {
+    document.write("The sign of the product is: +");
+} else {
+    document.write("The sign of the product is: -");
+}
+
+
+    </script>
+    
+</body>
+</html>

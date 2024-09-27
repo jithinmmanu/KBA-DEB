@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>quderatic equation</p>
+    <script>
+          let a = 1; // Change this value as needed
+    let b = -3; // Change this value as needed
+    let c = 2; // Change this value as needed
+
+    // Calculate the discriminant
+    let discriminant = b * b - 4 * a * c;
+
+    // Check the nature of the roots
+    if (discriminant > 0) {
+        let root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+        let root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+        document.write(`Roots are real and different:<br>`);
+        document.write(`Root 1: ${root1}<br>`);
+        document.write(`Root 2: ${root2}<br>`);
+    } else if (discriminant === 0) {
+        let root = -b / (2 * a);
+        document.write(`Roots are real and the same:<br>`);
+        document.write(`Root: ${root}<br>`);
+    } else {
+        let realPart = (-b / (2 * a)).toFixed(2);
+        let imaginaryPart = (Math.sqrt(-discriminant) / (2 * a)).toFixed(2);
+        document.write(`Roots are complex and different:<br>`);
+        document.write(`Root 1: ${realPart} + ${imaginaryPart}i<br>`);
+        document.write(`Root 2: ${realPart} - ${imaginaryPart}i<br>`);
+    }
+    </script>
+    
+</body>
+</html>
