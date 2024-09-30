@@ -8,47 +8,48 @@
 <body>
     <p>addition of 2 arrays</p>
     <script>
-                let x=0;
-                let a=[[],[],[]];
-  
-  for(i=0;i<4;i++)
-{
-  
-  for(j=0;j<4;j++){
-      x=x+2;
-      a[i][j]=x;
-      
-      
-      document.write(a[i][j])
-  }
-  document.write("<br>")
-}
-
-    
+               let a=[[],[],[]];
         let b=[[],[],[]];
-  
-  for(k=0;k<4;k++)
-{
-  x=k;
-  for(l=0;l<4;l++){
-      b[k][l]=x+1;
-      
-      document.write(b[k][l])
-  }
-  document.write("<br>")
-}
-let c=[[],[],[]];
+        let c=[[],[],[]]
+        let num =1;
+        for(i=0;i<3;i++){
+            for(j=0;j<4;j++){
+                a[i][j]=num;
+                document.write(a[i][j])
+            }
+            num=num+1;
+            document.write("<br>")
+        }
+        document.write("<br>")
+        let n=0;
 
-for(m=0;m<4;m++)
-{
-  
-  for(n=0;n<4;n++){
-      c[m][n]=a[i][j]+b[k][l];
-      
-      document.write( "result",c[m][n])
-  }
-  document.write("<br>")
-}
+        for(i=0;i<3;i++){
+        
+            for(j=0;j<4;j++){
+                
+                n=n+2;
+                b[i][j]=n;
+              
+                document.write(b[i][j] )
+                document.write("  ")
+            }
+            document.write("<br>")
+        }
+       
+        for(i=0;i<3;i++){
+            for(j=0;j<4;j++){
+                c[i][j]=a[i][j]+b[i][j];
+            }
+        }
+        document.write("<br> The sum of matrix:<br>")
+
+        for(i=0;i<3;i++){
+            document.write("<br>")
+            for(j=0;j<4;j++){
+                document.write(c[i][j]);
+            }
+        }
+        
 
 
 

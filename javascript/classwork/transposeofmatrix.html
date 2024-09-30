@@ -14,17 +14,35 @@
     [26, 28, 30, 32]
 ];
 
-let b = [];
+
 for (let i = 0; i < a.length; i++) {
-    b[i] = [];
     for (let j = 0; j < a[i].length; j++) {
-        b[i][j] = a[j][i];
+      
+        document.write(a[i][j])
+        document.write(" ")
+
     }
+    document.write("<br>")
+}
+let b = [
+    [],
+    [],
+    [],
+    []
+];
+for (let i = 0; i < a.length; i++) {
+    for (let j = 0; j < a[i].length; j++) {
+      b[i][j]=a[j][i];
+        document.write(b[i][j])
+        document.write(" ")
+
+    }
+    document.write("<br>")
 }
 
-for (let i = 0; i < b.length; i++) {
-    document.write(b[i].join(), "<br>");
-}
+
+
+
 
 
 
