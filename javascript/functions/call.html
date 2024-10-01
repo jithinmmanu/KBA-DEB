@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>method to control this keyword</title>
+</head>
+<body>
+    <h1>call method in function</h1>
+    <p>check the console for the o/p</p>
+    <script>
+
+        // function greet(greeting)
+        // {
+        //     console.log(greeting +','+ this.name)
+        // }
+        // let person={
+        //     name:'alice',
+        //     age:20
+        // }
+        // greet.call(person,'hello');
+
+        const person={
+            fullname:function(city,country){
+                console.log(this.firstname + " "+ this.lastname +","+city+ ","+country)
+
+            }
+        }
+        const person1={
+            firstname:"john",
+            lastname:'wick'
+        };
+        person.fullname.call(person1,"newyork","usa")
+
+
+        const person2={
+            firstname:"alice",
+            lastname:"smith"
+        };
+        const boundfunction=person.fullname.bind(person3,"kingston","jamacia");
+        person.fullname.call(person1,"newyork","india")
+        person.fullname.apply(person2,["london","uk"])
+        boundfunction();
+
+    </script>
+    
+</body>
+</html>

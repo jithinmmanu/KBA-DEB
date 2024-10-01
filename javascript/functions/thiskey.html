@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cheking the scope of 'this' keyword</title>
+</head>
+<body>
+    <h1>cheking the scope this keyword</h1>
+    <p>check the console for output</p>
+    <button onclick="showalert">Show Alert</button>
+    <script>
+        console.log(this)//global window object
+        function showthis(){
+            console.log(this)
+        }
+        showthis(); //window object
+        let person={
+            name:'bob',
+            greet:function(){
+                console.log(`hello`,this.name);
+            }
+
+
+
+        };person.greet(); //hello bob
+
+
+        let arrowgreet=()=>{
+            console.log(`arrow function this context`,this);
+        };
+        arrowgreet(); //o/p=window Object
+        function showalert(){
+            window.alert("hello from window object")
+
+        };
+        showalert();
+
+        //immediately invoked function experssion
+        (function(){
+            console.log("function is immediately executed");
+        })();
+
+
+    </script>
+   
+
+    
+</body>
+</html>
