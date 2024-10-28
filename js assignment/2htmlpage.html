@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-200 flex items-center justify-center h-screen">
+
+    <div class="w-[600px] h-[500px] bg-white shadow-lg rounded-lg p-8">
+        <!-- <h2 class="text-2xl font-semibold text-center mb-6 text-blue-600">User Information</h2> -->
+
+        <div class="mb-5">
+            <label for="name" class="block mb-2 text-sm font-medium text-gray-700">Name</label>
+            <input type="text" id="name" class="block w-full p-4 border border-gray-300 rounded-lg bg-gray-50 text-base focus:ring-blue-500 focus:border-blue-500" placeholder="Enter your name">
+        </div>
+
+        <div class="mb-5">
+            <label for="address" class="block mb-2 text-sm font-medium text-gray-700">Address</label>
+            <textarea id="address" rows="4" class="block w-full p-4 border border-gray-300 rounded-lg bg-gray-50 text-base focus:ring-blue-500 focus:border-blue-500" placeholder="Enter your address"></textarea>
+        </div>
+
+        <div class="mb-5">
+            <span class="block mb-2 text-sm font-medium text-gray-700">Degree</span>
+            <div class="flex items-center mb-2">
+                <input type="radio" name="degree" id="Btech" class="mr-2">
+                <label for="Btech" class="mr-4">BTech</label>
+                <input type="radio" name="degree" id="Mtech" class="mr-2">
+                <label for="Mtech" class="mr-4">MTech</label>
+                <input type="radio" name="degree" id="MCA" class="mr-2">
+                <label for="MCA" class="mr-4">MCA</label>
+                <input type="radio" name="degree" id="others" onclick="selectOption()" class="mr-2">
+                <label for="others">Others</label>
+            </div>
+
+            <div id="select" class="mt-4"></div>
+        </div>
+
+        <div class="mb-5">
+            <button class="w-full bg-blue-600 text-white rounded-lg py-3 hover:bg-blue-700 transition duration-200" onclick="Save()">Save</button>
+        </div>
+    </div>
+
+    <script>
+        function Save() {
+            // Your save functionality here
+            alert('Form submitted!');
+        }
+
+        function selectOption() {
+            const selectContainer = document.getElementById('select');
+            selectContainer.innerHTML = '';  // Clear any existing dropdowns
+
+            // Create dropdown
+            const select = document.createElement('select');
+            select.className = 'w-full p-2 border border-gray-300 rounded-lg text-base bg-gray-50 focus:ring-blue-500 focus:border-blue-500';
+
+            // Create the options
+            const options = ['BCA', 'PGDCA', 'BCom', 'MPhil'];
+            options.forEach(optionText => {
+                const option = document.createElement('option');
+                option.value = optionText;
+                option.textContent = optionText;
+                select.appendChild(option);
+            });
+
+            // Append the select element to the selectContainer
+            selectContainer.appendChild(select);
+        }
+    </script>
+
+    
+</body>
+
+</html>
